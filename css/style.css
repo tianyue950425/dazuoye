@@ -126,3 +126,104 @@ body{
     background: none;
 }
 /*-- //header --*/
+/*-- w3layouts-banner-info --*/
+.w3layouts-banner-info {
+    padding: 13em 0;
+}
+.agileits-logo{
+	text-align:center;
+}
+.agileits-logo h1{
+	margin:0;
+}
+.agileits-logo h1 a{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    border: solid 10px #fff;
+    padding: .2em .5em;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 8px;
+}
+.agileits-logo p{
+    color: #FFFFFF;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    width: 80%;
+    margin: 3em auto 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+/*-- //w3layouts-banner-info --*/
+/*-- about --*/
+.about,.services,.gallery,.team,.blog,.contact{
+	padding:4em 0;
+}
+.w3l-heading h2,.w3l-heading h3{
+    color: #212121;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.w3-about-grids,.services-grids,.team-row,.w3-agile-blog-grids{
+    margin: 4em 0 0 0;
+}
+.w3-about-left h5{
+    color: #000000;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.w3-about-left p{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+.w3-about-left p span{
+	display:block;
+	margin:1em 0 0 0;
+}
+.w3l-button {
+    margin: 2em 0 1em 0;
+}
+.w3l-button a {
+    color: #212121;
+    font-size: .9em;
+    text-decoration: none;
+    padding: .5em 2em;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    border: solid 1px #000000;
+}
+.w3l-button a:hover {
+    background: #daae19;
+    border: solid 1px #daae19;
+    color: #FFFFFF;
+}
+.w3l-button a:focus{
+	outline:none;
+}
+.w3ls-about-img1{
+    background: url(../images/4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 300px;
+    margin: 3em 0 0 0;
+}
+.w3ls-about-img2{
+	background:url(../images/5.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:400px;
+}
+/*-- //about --*/
