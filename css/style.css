@@ -384,3 +384,106 @@ body{
 	color:#FFFFFF;
 }
 /*-- //gallery --*/
+/*-- team --*/
+.team{
+	background: #232a34;
+}
+.team-heading h3{
+	color:#FFFFFF;
+}
+.team-grids .team-img {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.captn h4 {
+	color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.captn p {
+    font-size: .9em;
+    margin-top: 1em;
+	color:#fff;
+	line-height:1.8em;
+}
+.team-grids .captn {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.captn-top {
+    padding: 16% 10%;
+}
+.team-img:hover .captn {
+	width: 100%;
+	top: 0%;
+}
+img.img-responsive {
+    width: 100%;
+}
+.team .wthree-social-grids{
+    background: #daae19;
+    padding: 1em;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    transition: 1s all;
+}
+.team-img:hover .wthree-social-grids {
+    -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+    transform: scale(1);
+}
+.wthree-social-grids ul{
+    padding: 0;
+    margin: 0;
+}
+.wthree-social-grids ul li{
+    display: inline-block;
+}
+.wthree-social-grids ul li a {
+	color: #333;
+    text-align: center;
+}
+.wthree-social-grids ul li a i.fa.fa-facebook,.wthree-social-grids ul li a i.fa.fa-twitter,.wthree-social-grids ul li a i.fa.fa-rss{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+	border:solid 2px #FFF;
+    color: #FFF;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.wthree-social-grids ul li a i.fa.fa-facebook:hover{
+	background: #3b5998;
+}
+.wthree-social-grids ul li a i.fa.fa-twitter:hover{
+	background: #55acee;
+}
+.wthree-social-grids ul li a i.fa.fa-rss:hover{
+	background: #f26522;
+}
+/*--//team--*/
